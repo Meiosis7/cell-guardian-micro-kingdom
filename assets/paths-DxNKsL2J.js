@@ -1,0 +1,1 @@
+var e=`/cell-guardian-micro-kingdom`;function t(t){return`${e}${t.startsWith(`/`)?t:`/${t}`}`}export{t};

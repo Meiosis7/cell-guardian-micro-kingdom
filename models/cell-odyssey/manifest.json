@@ -1,0 +1,468 @@
+{
+  "probe": {
+    "blender_bounds_xyz": [
+      [
+        -1.0799999237060547,
+        1.0799999237060547
+      ],
+      [
+        -1.4627063274383545,
+        1.2599999904632568
+      ],
+      [
+        -0.46000000834465027,
+        0.9044279456138611
+      ]
+    ],
+    "triangles": 7584,
+    "meshes": 11,
+    "bytes": 198460,
+    "nodes": [
+      "hull",
+      "canopy",
+      "nacelle",
+      "rotor",
+      "frame",
+      "light-strip",
+      "fins",
+      "headlamp",
+      "antenna",
+      "sensor",
+      "canopy-frame"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -1.0799999833106995,
+        -0.46000000834465027,
+        -1.2599999904632568
+      ],
+      [
+        1.0799999237060547,
+        0.8099999986588955,
+        1.25999915599823
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      2.159999907016754,
+      1.2700000070035458,
+      2.519999146461487
+    ],
+    "materials": 5,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "nucleus": {
+    "gltf_bounds_xyz": [
+      [
+        -4.922643184661865,
+        5.013285160064697
+      ],
+      [
+        -4.9916510581970215,
+        4.478487014770508
+      ],
+      [
+        -4.732030391693115,
+        2.827051877975464
+      ]
+    ],
+    "dimensions_xyz": [
+      9.935928344726562,
+      9.47013807296753,
+      7.559082269668579
+    ],
+    "triangles": 41822,
+    "meshes": 5,
+    "bytes": 1100012,
+    "semantic_meshes": [
+      "outer-nuclear-envelope",
+      "inner-nuclear-envelope",
+      "nuclear-pore-complexes",
+      "nucleolus",
+      "tangled-chromatin"
+    ],
+    "front_direction": "+Z",
+    "source": "generate_anatomy_v2.py; Blender 5.2.1 LTS"
+  },
+  "mitochondrion": {
+    "blender_bounds_xyz": [
+      [
+        -4.099483966827393,
+        4.097121715545654
+      ],
+      [
+        -2.0970375537872314,
+        2.0999698638916016
+      ],
+      [
+        -1.9474925994873047,
+        1.9474925994873047
+      ]
+    ],
+    "triangles": 20304,
+    "meshes": 5,
+    "bytes": 452756,
+    "nodes": [
+      "outer-membrane",
+      "inner-membrane",
+      "cristae",
+      "ATP-synthase",
+      "mitochondrial-DNA"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -4.099483966827393,
+        -1.9474925994873047,
+        -2.0999698638916016
+      ],
+      [
+        4.097121715545654,
+        1.9474925994873047,
+        2.0970375537872314
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      8.196605682373047,
+      3.8949851989746094,
+      4.197007417678833
+    ],
+    "materials": 4,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "er": {
+    "gltf_bounds_xyz": [
+      [
+        -1.1527456045150757,
+        4.7848711013793945
+      ],
+      [
+        -4.236180305480957,
+        4.092665195465088
+      ],
+      [
+        -2.490985155105591,
+        2.8506453037261963
+      ]
+    ],
+    "dimensions_xyz": [
+      5.93761670589447,
+      8.328845500946045,
+      5.341630458831787
+    ],
+    "triangles": 37724,
+    "meshes": 3,
+    "bytes": 750392,
+    "semantic_meshes": [
+      "rough-ER-fenestrated-cisternae",
+      "surface-bound-ribosomes",
+      "smooth-ER-interconnected-tubules"
+    ],
+    "front_direction": "+Z",
+    "source": "generate_anatomy_v2.py; Blender 5.2.1 LTS"
+  },
+  "golgi": {
+    "gltf_bounds_xyz": [
+      [
+        -4.016228675842285,
+        4.154013633728027
+      ],
+      [
+        -2.0676379203796387,
+        1.654677391052246
+      ],
+      [
+        -1.6612040996551514,
+        2.1036813259124756
+      ]
+    ],
+    "dimensions_xyz": [
+      8.170242309570312,
+      3.7223153114318848,
+      3.764885425567627
+    ],
+    "triangles": 11320,
+    "meshes": 2,
+    "bytes": 228332,
+    "semantic_meshes": [
+      "Golgi-closed-cisternae",
+      "Golgi-budding-and-transport-vesicles"
+    ],
+    "front_direction": "+Z",
+    "source": "generate_anatomy_v2.py; Blender 5.2.1 LTS"
+  },
+  "chloroplast": {
+    "blender_bounds_xyz": [
+      [
+        -3.6834216117858887,
+        3.6820895671844482
+      ],
+      [
+        -2.086883068084717,
+        2.0862181186676025
+      ],
+      [
+        -1.7876603603363037,
+        1.7876603603363037
+      ]
+    ],
+    "triangles": 16700,
+    "meshes": 6,
+    "bytes": 396436,
+    "nodes": [
+      "outer-envelope.001",
+      "inner-envelope.001",
+      "thylakoid-grana",
+      "stroma-lamellae",
+      "starch-granules",
+      "chloroplast-DNA"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -3.6834216117858887,
+        -1.7876603603363037,
+        -2.0862181186676025
+      ],
+      [
+        3.6820895671844482,
+        1.7876603603363037,
+        2.086883068084717
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      7.365511178970337,
+      3.5753207206726074,
+      4.173101186752319
+    ],
+    "materials": 4,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "lysosome": {
+    "blender_bounds_xyz": [
+      [
+        -2.1374194622039795,
+        2.139150857925415
+      ],
+      [
+        -2.084401845932007,
+        2.08988618850708
+      ],
+      [
+        -2.0362966060638428,
+        2.0362966060638428
+      ]
+    ],
+    "triangles": 9128,
+    "meshes": 4,
+    "bytes": 226524,
+    "nodes": [
+      "single-membrane",
+      "digested-cargo",
+      "digested-cargo.001",
+      "hydrolytic-enzymes"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -2.1374194622039795,
+        -2.0362966060638428,
+        -2.08988618850708
+      ],
+      [
+        2.139150857925415,
+        2.0362966060638428,
+        2.084401845932007
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      4.2765703201293945,
+      4.0725932121276855,
+      4.174288034439087
+    ],
+    "materials": 4,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "centrosome": {
+    "blender_bounds_xyz": [
+      [
+        -2.077975034713745,
+        2.3630001544952393
+      ],
+      [
+        -0.863085150718689,
+        1.2932076454162598
+      ],
+      [
+        -1.1629999876022339,
+        1.1629999876022339
+      ]
+    ],
+    "triangles": 4248,
+    "meshes": 2,
+    "bytes": 143076,
+    "nodes": [
+      "microtubule-triplets",
+      "centriole-linkers"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -2.077974913452678,
+        -1.1629999876022339,
+        -1.2932069706198315
+      ],
+      [
+        2.3630001544952393,
+        1.1629999876022339,
+        0.8630846115733544
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      4.440975067947917,
+      2.3259999752044678,
+      2.1562915821931856
+    ],
+    "materials": 2,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "ribosome": {
+    "blender_bounds_xyz": [
+      [
+        -3.3248796463012695,
+        3.319789171218872
+      ],
+      [
+        -1.048274040222168,
+        1.0345458984375
+      ],
+      [
+        -0.9800000190734863,
+        2.958833932876587
+      ]
+    ],
+    "triangles": 5168,
+    "meshes": 4,
+    "bytes": 138508,
+    "nodes": [
+      "large-subunit",
+      "small-subunit",
+      "mRNA",
+      "nascent-peptide"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -3.3248796463012695,
+        -0.9800000190734863,
+        -1.0345458984375
+      ],
+      [
+        3.319789171218872,
+        2.958833932876587,
+        1.048274040222168
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      6.644668817520142,
+      3.9388339519500732,
+      2.082819938659668
+    ],
+    "materials": 4,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "vacuole": {
+    "blender_bounds_xyz": [
+      [
+        -3.615000009536743,
+        3.615000009536743
+      ],
+      [
+        -2.5,
+        2.615000009536743
+      ],
+      [
+        -2.815000057220459,
+        2.799999952316284
+      ]
+    ],
+    "triangles": 5312,
+    "meshes": 6,
+    "bytes": 140852,
+    "nodes": [
+      "cell-wall",
+      "plasma-membrane",
+      "vacuole-lumen",
+      "tonoplast",
+      "peripheral-nucleus",
+      "peripheral-chloroplasts"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -3.615000009536743,
+        -2.815000057220459,
+        -2.6150000020861626
+      ],
+      [
+        3.615000009536743,
+        2.799999952316284,
+        2.5
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      7.230000019073486,
+      5.615000009536743,
+      5.115000002086163
+    ],
+    "materials": 6,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  },
+  "membrane": {
+    "blender_bounds_xyz": [
+      [
+        -4.17119026184082,
+        4.17119026184082
+      ],
+      [
+        -1.8901000022888184,
+        1.21999990940094
+      ],
+      [
+        -2.180000066757202,
+        2.179999828338623
+      ]
+    ],
+    "triangles": 48688,
+    "meshes": 6,
+    "bytes": 1498512,
+    "nodes": [
+      "phospholipid-heads",
+      "hydrophobic-tails",
+      "transmembrane-proteins",
+      "channel-mouth",
+      "extracellular-glycans",
+      "glycan-sugars"
+    ],
+    "gltf_bounds_xyz": [
+      [
+        -4.171190217137337,
+        -2.1800000071525574,
+        -1.2199998795986176
+      ],
+      [
+        4.17119026184082,
+        2.179999828338623,
+        1.8901000022888184
+      ]
+    ],
+    "gltf_dimensions_xyz": [
+      8.342380478978157,
+      4.35999983549118,
+      3.110099881887436
+    ],
+    "materials": 6,
+    "no_lights_cameras": true,
+    "all_opaque": true
+  }
+}

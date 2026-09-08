@@ -1,0 +1,8 @@
+2:I["8c0f216c4604",[],"Children",1]
+3:I["15c18cfaeeff",[],"LayoutSegmentProvider",1]
+4:I["8c0f216c4604",[],"Slot",1]
+5:I["593f344dc510",[],"RedirectBoundary",1]
+:HL["/cell-guardian-micro-kingdom/assets/index-Cb4_Lac6.css","style"]
+0:{"__route":"route:/odyssey/","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","page:/odyssey/":"$L1","layout:/":[[[["$","link","css:/cell-guardian-micro-kingdom/assets/index-Cb4_Lac6.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/cell-guardian-micro-kingdom/assets/index-Cb4_Lac6.css","data-rsc-css-href":"/cell-guardian-micro-kingdom/assets/index-Cb4_Lac6.css"}],"$undefined"],["$","html",null,{"lang":"zh-CN","children":["$","body",null,{"children":["$","$L2",null,{}]}]}]],null],"route:/odyssey/":[[["$","meta",null,{"charSet":"utf-8"}],[["$","title","0",{"children":"细胞守护者 · 微观王国"}],["$","meta","1",{"name":"description","content":"进入细胞、DNA 与病毒的微观世界，在探索中学习高中生物核心知识。"}],["$","link","2",{"rel":"icon","href":"/cell-guardian-micro-kingdom/favicon.svg"}]],[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"segmentMap":{"children":["odyssey"]},"children":["$","$L4",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L5",null,{"children":["$","$L3",null,{"segmentMap":{"children":[]},"children":["$","$L4",null,{"id":"page:/odyssey/"}]}]}]}]}]],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:c6dsegfe9zds","deploymentVersion":"3ef27bfa-13dc-4c75-929d-a87bcfd55171","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null}}
+6:I["b62e7757867b",[],"default",1]
+1:["$","$L6",null,{}]

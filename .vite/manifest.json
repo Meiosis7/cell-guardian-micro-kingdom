@@ -1,0 +1,163 @@
+{
+  "_RoomEnvironment-B_224vb1.js": {
+    "file": "assets/RoomEnvironment-B_224vb1.js",
+    "name": "RoomEnvironment",
+    "imports": [
+      "node_modules/three/build/three.module.js"
+    ]
+  },
+  "_framework-CXnKph_e.js": {
+    "file": "assets/framework-CXnKph_e.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_lessons-mZs16beB.js": {
+    "file": "assets/lessons-mZs16beB.js",
+    "name": "lessons"
+  },
+  "_paths-DxNKsL2J.js": {
+    "file": "assets/paths-DxNKsL2J.js",
+    "name": "paths"
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "_world-data-BQWUCjWX.js": {
+    "file": "assets/world-data-BQWUCjWX.js",
+    "name": "world-data",
+    "imports": [
+      "_lessons-mZs16beB.js"
+    ]
+  },
+  "app/CellGame.tsx": {
+    "file": "assets/CellGame-fNjreNC0.js",
+    "name": "CellGame",
+    "src": "app/CellGame.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_lessons-mZs16beB.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "node_modules/three/build/three.module.js",
+      "node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "app/scene-models.ts"
+    ]
+  },
+  "app/game/CellGuardianGame.tsx": {
+    "file": "assets/CellGuardianGame-CvaDA32V.js",
+    "name": "CellGuardianGame",
+    "src": "app/game/CellGuardianGame.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_paths-DxNKsL2J.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "app/game/guardian-engine.ts"
+    ],
+    "css": [
+      "assets/CellGuardianGame-CTsev0aG.css"
+    ]
+  },
+  "app/game/ExpeditionGame.tsx": {
+    "file": "assets/ExpeditionGame-Ck42qe16.js",
+    "name": "ExpeditionGame",
+    "src": "app/game/ExpeditionGame.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_paths-DxNKsL2J.js",
+      "_world-data-BQWUCjWX.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "app/game/engine.ts"
+    ],
+    "css": [
+      "assets/ExpeditionGame-AbwtLs94.css"
+    ]
+  },
+  "app/game/engine.ts": {
+    "file": "assets/engine-oxf1Uwur.js",
+    "name": "engine",
+    "src": "app/game/engine.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_paths-DxNKsL2J.js",
+      "_world-data-BQWUCjWX.js",
+      "node_modules/three/build/three.module.js",
+      "_RoomEnvironment-B_224vb1.js"
+    ]
+  },
+  "app/game/guardian-engine.ts": {
+    "file": "assets/guardian-engine-DSF1pxsN.js",
+    "name": "guardian-engine",
+    "src": "app/game/guardian-engine.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/three/build/three.module.js",
+      "_RoomEnvironment-B_224vb1.js"
+    ]
+  },
+  "app/scene-models.ts": {
+    "file": "assets/scene-models-Dbq1nACZ.js",
+    "name": "scene-models",
+    "src": "app/scene-models.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/three/build/three.module.js"
+    ]
+  },
+  "node_modules/three/build/three.module.js": {
+    "file": "assets/three.module-DBiybkMc.js",
+    "name": "three.module",
+    "src": "node_modules/three/build/three.module.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/three/examples/jsm/controls/OrbitControls.js": {
+    "file": "assets/OrbitControls-Bclqv4WQ.js",
+    "name": "OrbitControls",
+    "src": "node_modules/three/examples/jsm/controls/OrbitControls.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/three/build/three.module.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-D2K_2Amh.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-CzCXionw.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/CellGame.tsx",
+      "virtual:vinext-app-browser-entry",
+      "app/game/ExpeditionGame.tsx",
+      "app/game/CellGuardianGame.tsx"
+    ]
+  }
+}
